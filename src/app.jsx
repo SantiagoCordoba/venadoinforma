@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Layout style={{ backgroundColor: '#202429' }}>
       <Layout.Content
-        style={{ alignSelf: 'center', maxWidth: 1000, width: '100%' }}
+        style={{ alignSelf: 'center', maxWidth: 640, width: '100%' }}
       >
         <TwitterTimelineEmbed
           lang='es'
