@@ -24,12 +24,14 @@ module.exports = {
     ]
   },
   plugins: [
-    new CopyPlugin([
-      {
-        flatten: true,
-        from: 'public/**/*'
-      }
-    ])
+    new CopyPlugin({
+      patterns: [
+        {
+          flatten: true,
+          from: 'public/**/*'
+        }
+      ]
+    })
   ],
   resolve: {
     alias: {
